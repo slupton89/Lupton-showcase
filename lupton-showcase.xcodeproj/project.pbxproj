@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9CB53081C80276C003820BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CB53071C80276C003820BB /* AppDelegate.swift */; };
+		B9CB530A1C80276C003820BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CB53091C80276C003820BB /* ViewController.swift */; };
+		B9CB530D1C80276C003820BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9CB530B1C80276C003820BB /* Main.storyboard */; };
+		B9CB530F1C80276C003820BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9CB530E1C80276C003820BB /* Assets.xcassets */; };
+		B9CB53121C80276C003820BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9CB53101C80276C003820BB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B9CB53041C80276C003820BB /* lupton-showcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lupton-showcase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9CB53071C80276C003820BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9CB53091C80276C003820BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9CB530C1C80276C003820BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9CB530E1C80276C003820BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9CB53111C80276C003820BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9CB53131C80276C003820BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9CB53011C80276C003820BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9CB52FB1C80276C003820BB = {
+			isa = PBXGroup;
+			children = (
+				B9CB53061C80276C003820BB /* lupton-showcase */,
+				B9CB53051C80276C003820BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9CB53051C80276C003820BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9CB53041C80276C003820BB /* lupton-showcase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9CB53061C80276C003820BB /* lupton-showcase */ = {
+			isa = PBXGroup;
+			children = (
+				B9CB53071C80276C003820BB /* AppDelegate.swift */,
+				B9CB53091C80276C003820BB /* ViewController.swift */,
+				B9CB530B1C80276C003820BB /* Main.storyboard */,
+				B9CB530E1C80276C003820BB /* Assets.xcassets */,
+				B9CB53101C80276C003820BB /* LaunchScreen.storyboard */,
+				B9CB53131C80276C003820BB /* Info.plist */,
+			);
+			path = "lupton-showcase";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9CB53031C80276C003820BB /* lupton-showcase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9CB53161C80276C003820BB /* Build configuration list for PBXNativeTarget "lupton-showcase" */;
+			buildPhases = (
+				B9CB53001C80276C003820BB /* Sources */,
+				B9CB53011C80276C003820BB /* Frameworks */,
+				B9CB53021C80276C003820BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lupton-showcase";
+			productName = "lupton-showcase";
+			productReference = B9CB53041C80276C003820BB /* lupton-showcase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9CB52FC1C80276C003820BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Shane Lupton";
+				TargetAttributes = {
+					B9CB53031C80276C003820BB = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = YFV78DCG3Z;
+					};
+				};
+			};
+			buildConfigurationList = B9CB52FF1C80276C003820BB /* Build configuration list for PBXProject "lupton-showcase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9CB52FB1C80276C003820BB;
+			productRefGroup = B9CB53051C80276C003820BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9CB53031C80276C003820BB /* lupton-showcase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9CB53021C80276C003820BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9CB53121C80276C003820BB /* LaunchScreen.storyboard in Resources */,
+				B9CB530F1C80276C003820BB /* Assets.xcassets in Resources */,
+				B9CB530D1C80276C003820BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9CB53001C80276C003820BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9CB530A1C80276C003820BB /* ViewController.swift in Sources */,
+				B9CB53081C80276C003820BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9CB530B1C80276C003820BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9CB530C1C80276C003820BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9CB53101C80276C003820BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9CB53111C80276C003820BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9CB53141C80276C003820BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9CB53151C80276C003820BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9CB53171C80276C003820BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "lupton-showcase/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanelupton.lupton-showcase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B9CB53181C80276C003820BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "lupton-showcase/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanelupton.lupton-showcase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9CB52FF1C80276C003820BB /* Build configuration list for PBXProject "lupton-showcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9CB53141C80276C003820BB /* Debug */,
+				B9CB53151C80276C003820BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9CB53161C80276C003820BB /* Build configuration list for PBXNativeTarget "lupton-showcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9CB53171C80276C003820BB /* Debug */,
+				B9CB53181C80276C003820BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9CB52FC1C80276C003820BB /* Project object */;
+}
