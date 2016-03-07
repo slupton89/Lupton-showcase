@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B95643111C8B9D720041202E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B956430E1C8B9D720041202E /* Bolts.framework */; };
+		B95643121C8B9D720041202E /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B956430F1C8B9D720041202E /* FBSDKCoreKit.framework */; };
+		B95643131C8B9D720041202E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B95643101C8B9D720041202E /* FBSDKLoginKit.framework */; };
 		B9CB53081C80276C003820BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CB53071C80276C003820BB /* AppDelegate.swift */; };
 		B9CB530A1C80276C003820BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CB53091C80276C003820BB /* ViewController.swift */; };
 		B9CB530D1C80276C003820BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9CB530B1C80276C003820BB /* Main.storyboard */; };
 		B9CB530F1C80276C003820BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9CB530E1C80276C003820BB /* Assets.xcassets */; };
 		B9CB53121C80276C003820BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9CB53101C80276C003820BB /* LaunchScreen.storyboard */; };
+		B9CB53211C8027BE003820BB /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9CB531D1C8027BE003820BB /* NotoSans-Bold.ttf */; };
+		B9CB53221C8027BE003820BB /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9CB531E1C8027BE003820BB /* NotoSans-BoldItalic.ttf */; };
+		B9CB53231C8027BE003820BB /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9CB531F1C8027BE003820BB /* NotoSans-Italic.ttf */; };
+		B9CB53241C8027BE003820BB /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9CB53201C8027BE003820BB /* NotoSans-Regular.ttf */; };
+		B9CB53261C8029A4003820BB /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CB53251C8029A4003820BB /* MaterialView.swift */; };
+		B9CB53291C8029ED003820BB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CB53281C8029ED003820BB /* Constants.swift */; };
+		B9CB532B1C802DB3003820BB /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CB532A1C802DB3003820BB /* MaterialButton.swift */; };
+		B9CB532D1C803013003820BB /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CB532C1C803013003820BB /* MaterialTextField.swift */; };
+		B9E1424D1C8BA5CD00DD9FBF /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E1424C1C8BA5CD00DD9FBF /* DataService.swift */; };
+		F2E87C3A8FD509B8F33C9D96 /* Pods_lupton_showcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 192F1AEE6CABD220E3C3E7E2 /* Pods_lupton_showcase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		192F1AEE6CABD220E3C3E7E2 /* Pods_lupton_showcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lupton_showcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B956430E1C8B9D720041202E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		B956430F1C8B9D720041202E /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		B95643101C8B9D720041202E /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		B9CB53041C80276C003820BB /* lupton-showcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lupton-showcase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9CB53071C80276C003820BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9CB53091C80276C003820BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +39,17 @@
 		B9CB530E1C80276C003820BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9CB53111C80276C003820BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9CB53131C80276C003820BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9CB531D1C8027BE003820BB /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		B9CB531E1C8027BE003820BB /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B9CB531F1C8027BE003820BB /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		B9CB53201C8027BE003820BB /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		B9CB53251C8029A4003820BB /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		B9CB53281C8029ED003820BB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B9CB532A1C802DB3003820BB /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		B9CB532C1C803013003820BB /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		B9E1424C1C8BA5CD00DD9FBF /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		C3CF1B82A48E295928610C96 /* Pods-lupton-showcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lupton-showcase.release.xcconfig"; path = "Pods/Target Support Files/Pods-lupton-showcase/Pods-lupton-showcase.release.xcconfig"; sourceTree = "<group>"; };
+		CEC213FD36879407A794AE5B /* Pods-lupton-showcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lupton-showcase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lupton-showcase/Pods-lupton-showcase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +57,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B95643111C8B9D720041202E /* Bolts.framework in Frameworks */,
+				B95643121C8B9D720041202E /* FBSDKCoreKit.framework in Frameworks */,
+				B95643131C8B9D720041202E /* FBSDKLoginKit.framework in Frameworks */,
+				F2E87C3A8FD509B8F33C9D96 /* Pods_lupton_showcase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71B5C0B956EC93EA4A475224 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				192F1AEE6CABD220E3C3E7E2 /* Pods_lupton_showcase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B956430D1C8B9D630041202E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B956430E1C8B9D720041202E /* Bolts.framework */,
+				B956430F1C8B9D720041202E /* FBSDKCoreKit.framework */,
+				B95643101C8B9D720041202E /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B9CB52FB1C80276C003820BB = {
 			isa = PBXGroup;
 			children = (
 				B9CB53061C80276C003820BB /* lupton-showcase */,
 				B9CB53051C80276C003820BB /* Products */,
+				E934A07F934C6A43CFED09CC /* Pods */,
+				71B5C0B956EC93EA4A475224 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +106,13 @@
 		B9CB53061C80276C003820BB /* lupton-showcase */ = {
 			isa = PBXGroup;
 			children = (
+				B9E1424B1C8BA5C000DD9FBF /* Services */,
+				B956430D1C8B9D630041202E /* Frameworks */,
+				B9CB53271C8029E0003820BB /* Util */,
+				B9CB53191C80277B003820BB /* Controller */,
+				B9CB531B1C80278E003820BB /* Model */,
+				B9CB531A1C802783003820BB /* View */,
+				B9CB531C1C802794003820BB /* Resources */,
 				B9CB53071C80276C003820BB /* AppDelegate.swift */,
 				B9CB53091C80276C003820BB /* ViewController.swift */,
 				B9CB530B1C80276C003820BB /* Main.storyboard */,
@@ -64,6 +123,66 @@
 			path = "lupton-showcase";
 			sourceTree = "<group>";
 		};
+		B9CB53191C80277B003820BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B9CB531A1C802783003820BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B9CB53251C8029A4003820BB /* MaterialView.swift */,
+				B9CB532A1C802DB3003820BB /* MaterialButton.swift */,
+				B9CB532C1C803013003820BB /* MaterialTextField.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B9CB531B1C80278E003820BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B9CB531C1C802794003820BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9CB531D1C8027BE003820BB /* NotoSans-Bold.ttf */,
+				B9CB531E1C8027BE003820BB /* NotoSans-BoldItalic.ttf */,
+				B9CB531F1C8027BE003820BB /* NotoSans-Italic.ttf */,
+				B9CB53201C8027BE003820BB /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B9CB53271C8029E0003820BB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B9CB53281C8029ED003820BB /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		B9E1424B1C8BA5C000DD9FBF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B9E1424C1C8BA5CD00DD9FBF /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		E934A07F934C6A43CFED09CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEC213FD36879407A794AE5B /* Pods-lupton-showcase.debug.xcconfig */,
+				C3CF1B82A48E295928610C96 /* Pods-lupton-showcase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9CB53161C80276C003820BB /* Build configuration list for PBXNativeTarget "lupton-showcase" */;
 			buildPhases = (
+				26EDC173394062C8B277912A /* Check Pods Manifest.lock */,
 				B9CB53001C80276C003820BB /* Sources */,
 				B9CB53011C80276C003820BB /* Frameworks */,
 				B9CB53021C80276C003820BB /* Resources */,
+				193B3CC765FAED227A0FE26E /* Embed Pods Frameworks */,
+				D4DDE0DAB61B9605B668FDBB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,21 +245,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9CB53211C8027BE003820BB /* NotoSans-Bold.ttf in Resources */,
 				B9CB53121C80276C003820BB /* LaunchScreen.storyboard in Resources */,
+				B9CB53221C8027BE003820BB /* NotoSans-BoldItalic.ttf in Resources */,
+				B9CB53231C8027BE003820BB /* NotoSans-Italic.ttf in Resources */,
 				B9CB530F1C80276C003820BB /* Assets.xcassets in Resources */,
 				B9CB530D1C80276C003820BB /* Main.storyboard in Resources */,
+				B9CB53241C8027BE003820BB /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		193B3CC765FAED227A0FE26E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lupton-showcase/Pods-lupton-showcase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26EDC173394062C8B277912A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D4DDE0DAB61B9605B668FDBB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lupton-showcase/Pods-lupton-showcase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B9CB53001C80276C003820BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9CB532D1C803013003820BB /* MaterialTextField.swift in Sources */,
+				B9E1424D1C8BA5CD00DD9FBF /* DataService.swift in Sources */,
+				B9CB53261C8029A4003820BB /* MaterialView.swift in Sources */,
 				B9CB530A1C80276C003820BB /* ViewController.swift in Sources */,
 				B9CB53081C80276C003820BB /* AppDelegate.swift in Sources */,
+				B9CB53291C8029ED003820BB /* Constants.swift in Sources */,
+				B9CB532B1C802DB3003820BB /* MaterialButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,8 +427,14 @@
 		};
 		B9CB53171C80276C003820BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEC213FD36879407A794AE5B /* Pods-lupton-showcase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lupton-showcase",
+				);
 				INFOPLIST_FILE = "lupton-showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shanelupton.lupton-showcase";
@@ -259,8 +444,14 @@
 		};
 		B9CB53181C80276C003820BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3CF1B82A48E295928610C96 /* Pods-lupton-showcase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lupton-showcase",
+				);
 				INFOPLIST_FILE = "lupton-showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shanelupton.lupton-showcase";
@@ -287,6 +478,7 @@
 				B9CB53181C80276C003820BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
